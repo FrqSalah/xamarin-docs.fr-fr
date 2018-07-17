@@ -20,9 +20,9 @@ _Xamarin.Forms prend en charge les applications pilotées par des base de donné
 
 ## <a name="overview"></a>Vue d'ensemble
 
-Xamarin.Forms les applications peuvent utiliser le [SQLite.NET PCL NuGet](https://www.nuget.org/packages/sqlite-net-pcl/) package à intégrer les opérations de base de données dans le code partagé en référençant le `SQLite` classes fournies dans NuGet. Opérations de base de données peuvent être définies dans le projet de bibliothèque .NET Standard de la solution Xamarin.Forms, avec des projets spécifiques à une plateforme retournant un chemin d’accès à la base de données où est stocké.
+Sous Xamarin.Forms les applications peuvent utiliser le package [SQLite.NET PCL NuGet](https://www.nuget.org/packages/sqlite-net-pcl/) afin  d'intégrer les opérations de base de données dans le code partagé en référençant le `SQLite` classes fournies dans NuGet. Les opérations de base de données peuvent être définies dans le projet de bibliothèque .NET Standard de la solution Xamarin.Forms, avec des projets spécifiques à une plateforme retournant un chemin d’accès à la base de données où est stocké.
 
-Les accompagnant [exemple d’application](https://github.com/xamarin/xamarin-forms-samples/tree/master/Todo) est une application simple de la liste de tâches. Les captures d’écran suivantes illustrent comment l’exemple s’affiche sur chaque plateforme :
+L'application [exemple d’application](https://github.com/xamarin/xamarin-forms-samples/tree/master/Todo) est un xemple d'application de liste de tâches. Les captures d’écran suivantes illustrent comment l’exemple s’affiche sur chaque plateforme :
 
 [![Des captures d’écran exemple de base de données Xamarin.Forms](databases-images/todo-list-sml.png "TodoList première Page Screenshots")](databases-images/todo-list.png#lightbox "TodoList première Page Screenshots") [ ![ Des captures d’écran exemple de base de données Xamarin.Forms](databases-images/todo-list-sml.png "TodoList première Page Screenshots")](databases-images/todo-list.png#lightbox "TodoList première Page Screenshots")
 
